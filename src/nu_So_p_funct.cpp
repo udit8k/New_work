@@ -37,7 +37,13 @@ void nu_So_p_funct(double T, double efef, int points)
 		S_o_grid[i] = 1;
 		S_o_grid_total[i]=0;
 	}	
+double sum=0;
+	for (int counter1 = 0;counter1 < points;counter1++)
+	    sum = sum +  S_o_grid[counter1];
 
+	double average_dummy = sum/points;
+
+ 
  for(i=0;i<points;i++){
  		
 	C_mm[i]= (k[i]*k[i]+k_mm*k_mm)/(2*k_mm*k[i]);
