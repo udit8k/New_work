@@ -53,7 +53,7 @@ using namespace std;
 
 //-----------function for Valence band --------
 void nu_ii_p_funct();
-void nu_So_p_funct();  
+void nu_So_p_funct(double);  
 void nu_npop_p_funct();
 void nu_de_p_funct();
 //---------------------------
